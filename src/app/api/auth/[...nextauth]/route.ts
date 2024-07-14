@@ -61,9 +61,9 @@ const authOptions: NextAuthOptions = {
   },
 
   pages: {
-    // signIn: '/login',
-    // error: '/login',
-    // signOut: '/',
+    signIn: '/login',
+    error: '/login',
+    signOut: '/',
   },
 };
 const handler = NextAuth(authOptions) as never;
